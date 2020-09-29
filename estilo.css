@@ -1,0 +1,116 @@
+*{
+    margin: 0px;
+}
+body{
+    background: yellow;
+    color: black;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+}
+.principal{
+    background: yellowgreen;
+    padding: 50px;
+     
+}
+.principal2{
+    background: red;
+    padding: 50px;
+}
+.principal3{
+    background: orange;
+    padding: 50px;
+}
+ul{
+   list-style: none; 
+   margin: 0px;
+   padding: 0px;
+   display: flex;
+   height: inherit;
+}
+.header{
+background: rgb(164, 241, 9);
+color: black;
+display: flex;
+justify-content: space-between;
+height: 130px;
+}
+.header li{
+    height: inherit;
+    text-align: center;
+  
+}
+.header a{
+    color:black ;
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+    text-decoration: none;
+    height: inherit;
+}
+.menu{
+    height: inherit;
+}
+img{
+    margin: 40px;
+}
+.principal4{
+    padding: 50px;
+}
+
+.boton{
+    width: 250px;
+    height: 40px;
+    background-color: rgb(149, 219, 9);
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.logo img {
+    margin: 5px;
+    height: 124px;
+}
+.container1{
+    display: flex;
+    background: red;
+    padding: 20px;
+    justify-content: space-around;
+}
+.col1-container1{
+width: 400px;
+}
+.col2-container1{
+width: 200px;
+}
+.col3-container1{
+width: 300px;
+}
+.col3-container1 img{
+    width: 35px;
+    height: 25px;
+    padding-right: 10px;
+    margin: 0px;
+}
+.col2-container1 a{
+    color: black;
+    text-decoration: none;
+}
+
+.row1-contacto{
+    display: flex;
+    margin: 10px 0px;
+}
+.row2-contacto{
+    display: flex;
+    margin: 10px 0px;
+}
+.row3-redes{
+    display: flex;
+    margin: 10px 0px;
+}
+
+.container2{
+    background: yellowgreen;
+    text-align: center;
+    padding: 20px;
+}
